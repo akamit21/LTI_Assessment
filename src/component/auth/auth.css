@@ -1,0 +1,25 @@
+.gradient-custom-2 {
+  background: #fccb90;
+  background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+  background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+}
+
+.login-box {
+  display: flex;
+  height: calc(100vh - 60px);
+  justify-content: center;
+  align-items: center;
+}
+  
+@media (min-width: 768px) {
+  .gradient-form {
+    height: fit-content !important;
+  }
+}
+
+@media (min-width: 769px) {
+  .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+  }
+}

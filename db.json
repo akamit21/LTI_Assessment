@@ -1,0 +1,54 @@
+{
+  "users": [
+    {
+      "email": "akamit21@gmail.com",
+      "password": "$2a$10$j9r1jKD.ZnoM3JAtwvKv8eO4IymANQDerl7dxkHM7ohrBgM0.rJT2",
+      "name": "Amit Kumar",
+      "id": 1
+    },
+    {
+      "email": "amit@gmail.com",
+      "password": "$2a$10$OOu0TchU.kYvWQbN5iGR6eE0LMRz7HpoUUc5sDneYk7b3Vgx3520W",
+      "name": "Sumit Kumar",
+      "id": 2
+    }
+  ],
+  "events": [
+    {
+      "userId": 1,
+      "eventName": "dsad",
+      "eventDate": "2023-03-22",
+      "eventDescription": "das",
+      "eventPrice": "1212",
+      "eventBookingType": "normal-booking",
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "eventName": "Event 2",
+      "eventDate": "2023-03-22",
+      "eventDescription": "lorem ipsum",
+      "eventPrice": "8000",
+      "eventBookingType": "premium-booking",
+      "id": 2
+    },
+    {
+      "userId": 2,
+      "eventName": "dsad",
+      "eventDate": "2023-03-22",
+      "eventDescription": "das",
+      "eventPrice": "1212",
+      "eventBookingType": "normal-booking",
+      "id": 3
+    },
+    {
+      "userId": 2,
+      "eventName": "Event 45",
+      "eventDate": "2023-03-31",
+      "eventDescription": "One effective way to improve the performance of your React app is to use event emitters. Event emitters allow you to send data from one component to another without having to pass the data through the component hierarchy. This can be especially useful if you have a deep component hierarchy and you want to avoid having to pass data through multiple levels.",
+      "eventPrice": "5000",
+      "eventBookingType": "premium-booking",
+      "id": 4
+    }
+  ]
+}

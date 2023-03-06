@@ -1,0 +1,41 @@
+// fetch all users action types
+export const FETCH_USERS_REQUEST = "FETCH_USERS_REQUEST";
+export const FETCH_USERS_SUCCESS = "FETCH_USERS_SUCCESS";
+export const FETCH_USERS_FAILURE = "FETCH_USERS_FAILURE";
+
+// fetch user by id action types
+export const FETCH_USER_BY_ID_REQUEST = "FETCH_USER_BY_ID_REQUEST";
+export const FETCH_USER_BY_ID_SUCCESS = "FETCH_USER_BY_ID_SUCCESS";
+export const FETCH_USER_BY_ID_FAILURE = "FETCH_USER_BY_ID_FAILURE";
+
+// fetch event action types
+export const FETCH_EVENTS_REQUEST = "FETCH_EVENTS_REQUEST";
+export const FETCH_EVENTS_SUCCESS = "FETCH_EVENTS_SUCCESS";
+export const FETCH_EVENTS_FAILURE = "FETCH_EVENTS_FAILURE";
+
+// fetch event by id action types
+export const FETCH_EVENT_BY_ID_REQUEST = "FETCH_EVENT_BY_ID_REQUEST";
+export const FETCH_EVENT_BY_ID_SUCCESS = "FETCH_EVENT_BY_ID_SUCCESS";
+export const FETCH_EVENT_BY_ID_FAILURE = "FETCH_EVENT_BY_ID_FAILURE";
+
+// add new event action types
+export const ADD_EVENT_REQUEST = "ADD_EVENTS_REQUEST";
+export const ADD_EVENT_SUCCESS = "ADD_EVENTS_SUCCESS";
+export const ADD_EVENT_FAILURE = "ADD_EVENTS_FAILURE";
+
+// book room
+export const EDIT_EVENT_REQUEST = "EDIT_EVENT_REQUEST";
+export const EDIT_EVENT_SUCCESS = "EDIT_EVENT_SUCCESS";
+export const EDIT_EVENT_FAILURE = "EDIT_EVENT_FAILURE";
+
+// auth action types
+export const REGISTER_REQUEST = "REGISTER_REQUEST";
+export const REGISTER_SUCCESS = "REGISTER_SUCCESS";
+export const REGISTER_FAILURE = "REGISTER_FAILURE";
+export const LOGIN_REQUEST = "LOGIN_REQUEST";
+export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
+export const LOGIN_FAILURE = "LOGIN_FAILURE";
+export const LOGOUT = "LOGOUT";
+
+// reset
+export const RESET_STATE = "RESET_STATE";

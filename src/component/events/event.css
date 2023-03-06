@@ -1,0 +1,64 @@
+.box {
+    position: relative;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .15);
+}
+
+.ribbon {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.ribbon::before,
+.ribbon::after {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    display: block;
+    border: 5px solid #fccb90;
+}
+
+.ribbon span {
+    position: absolute;
+    display: block;
+    width: 225px;
+    padding: 10px 0;
+    background: #fccb90;
+    background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+    background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+    color: #fff;
+    font: 600 12px/1 'Lato', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* top left*/
+.ribbon-top-left {
+    top: -10px;
+    left: -10px;
+}
+
+.ribbon-top-left::before,
+.ribbon-top-left::after {
+    border-top-color: transparent;
+    border-left-color: transparent;
+}
+
+.ribbon-top-left::before {
+    top: 0;
+    right: 14px;
+}
+
+.ribbon-top-left::after {
+    bottom: 14px;
+    left: 0;
+}
+
+.ribbon-top-left span {
+    right: -25px;
+    top: 35px;
+    transform: rotate(-45deg);
+}
